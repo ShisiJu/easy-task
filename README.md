@@ -1,24 +1,20 @@
-# README
+# 项目初始化
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+```shell script
+# 安装gem
+bundle install
+# 创建数据库
+rails db:setup
+# 数据库迁移
+rails db:migrate
+```
 
-* Ruby version
 
-* System dependencies
+# 数据库
 
-* Configuration
+[ActiveRecord-Datatype](https://api.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/SchemaStatements.html#method-i-add_column)
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
