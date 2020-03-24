@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   #
   scope "api" do
     resources :users
+    get '/users/:id/task', to: 'users#get_tasks', foo: 'bar'
     resources :tasks
   end
 end
